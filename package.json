@@ -1,0 +1,29 @@
+{
+  "name": "roennowco",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && parcel build src/index.html",
+    "dev": "parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@html-eslint/eslint-plugin": "^0.32.0",
+    "@html-eslint/parser": "^0.32.0",
+    "@tailwindcss/postcss": "^4.0.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.18.0",
+    "globals": "^15.14.0",
+    "parcel": "^2.13.3",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^4.0.0"
+  }
+}
